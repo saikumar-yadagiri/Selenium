@@ -32,13 +32,11 @@ public class Base {
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
    
- @AfterClass
-  public void end() {
-	 driver.quit();
+
  }
 
 
  
 
-}
+
  
