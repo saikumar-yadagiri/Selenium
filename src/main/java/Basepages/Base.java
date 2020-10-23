@@ -14,10 +14,6 @@ import org.testng.annotations.BeforeClass;
 
  
 
-
-
- 
-
 public class Base {
     
     public static WebDriver driver;
@@ -35,10 +31,7 @@ public class Base {
     driver.get("http://automationpractice.com/index.php");
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
-    @AfterClass
-    public void tearDown() {
-    driver.quit();
-    }
+   
 
  
 
